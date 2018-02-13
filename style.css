@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  color: yellow;
+  font-family: 'concert one', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+#bg {
+  background: black url("http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/ML_NewportBeach_Stock_RF_156321114_1280x640.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.profiles {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  padding: 5px 25px 5px 25px;
+  display: inline-block;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 200px;
+}
